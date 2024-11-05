@@ -1,0 +1,13 @@
+# ninja log v6
+6	2737	7525053821523655	CMakeFiles/Objwriter.dir/main.cpp.obj	e2fd22f037b75ee0
+33	416	7525055044816450	CMakeFiles/Objwriter.dir/Vector2D.cpp.obj	79f1a0ad5abf351a
+16	3212	7525069765545602	Google_tests/CMakeFiles/Google_Tests_run.dir/ObjWriterTest.cpp.obj	ab35dab047d997f6
+55	431	7525055045037595	CMakeFiles/Objwriter.dir/Vector3D.cpp.obj	dd22d0e79c414092
+2026	2430	7525055064744031	Objwriter.exe	6a2f31157df3c58f
+12	2007	7525055044599613	CMakeFiles/Objwriter.dir/ObjWriter.cpp.obj	5b7825d89478b11e
+23	2025	7525055044712421	CMakeFiles/Objwriter.dir/Polygon.cpp.obj	f23066bea75c14de
+100	6948	7525067408246952	Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	3a31986fd0ff7178
+60	28130	7525067407856903	Google_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	95261fbf672ce722
+28136	35465	7525067688599889	lib/libgtest.a	ee7eedc1c9f91948
+35465	35664	7525067761903120	lib/libgtest_main.a	aa056120f1e72cc1
+12	2875	7525070747838477	Google_tests/CMakeFiles/Google_Tests_run.dir/ObjWriterTest.cpp.obj	ab35dab047d997f6
