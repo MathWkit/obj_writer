@@ -4,7 +4,6 @@
 #include "../Polygon.h"
 #include <fstream>
 
-
 const std::string temp_filename = "test.obj";
 
 TEST(ObjWriterTest, ConstructorOpensFileSuccessfully)
