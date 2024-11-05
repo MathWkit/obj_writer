@@ -8,14 +8,11 @@
 class ObjWriter
 {
 public:
-	ObjWriter(const std::string& filename);
+	ObjWriter() = default;
 
 	void write(const Model& model);
 
 	~ObjWriter();
-	
-private:
-	std::ofstream file;
 };
 
 #endif

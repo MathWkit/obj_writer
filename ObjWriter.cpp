@@ -6,17 +6,15 @@
 #include "Vector2D.cpp"
 #include "Vector3D.cpp"
 
-ObjWriter::ObjWriter(const std::string& filename) : 
-    file(filename, std::ios::binary | std::ios::out | std::ios::trunc)
-{
-    if (!file.is_open())
-    {
-        throw std::runtime_error("Ошибка при открытии файла!");
-    }
-}
 
-void ObjWriter::write(const Model& model)
+void ObjWriter::write(const Model& model, const std::string& filename)
 {
+	std::ofstream file(filename, std::ios::binary | std::ios::out | std::ios::trunc);
+
+	if (!file.is_open())
+	{
+		throw std::runtime_error("Ошибка при открытии файла!");
+	}
   for (auto& vertex : model.vertices)
   {
 	file << "v " << vertex.getX() << " " << vertex.getY() << " " << vertex.getZ() << std::endl;
@@ -57,6 +55,7 @@ void ObjWriter::write(const Model& model)
 
 	file << std::endl;
   }
+	file.close();
 }
 
 ObjWriter::~ObjWriter()
