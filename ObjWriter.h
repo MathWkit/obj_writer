@@ -2,9 +2,6 @@
 #define OBJWRITER_H
 
 #include "Model.h"
-#include "Polygon.h"
-#include "Vector3D.h"
-
 #include <string>
 #include <fstream>
 

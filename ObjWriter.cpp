@@ -1,9 +1,11 @@
 #include "ObjWriter.h"
+#include "Model.h"
+#include "Polygon.cpp"
+#include "Vector2D.cpp"
+#include "Vector3D.cpp"
 
 #include <fstream>
 #include <string>
-#include <iostream>
-#include <sstream>
 
 ObjWriter::ObjWriter(const std::string& filename) : 
     file(filename, std::ios::binary | std::ios::out | std::ios::trunc)
