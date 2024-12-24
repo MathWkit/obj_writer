@@ -10,7 +10,7 @@ class ObjWriter
 public:
 	ObjWriter() = default;
 
-	void write(const Model& model);
+	static void write(const Model& model, const std::string& filename);
 
 	~ObjWriter();
 };
